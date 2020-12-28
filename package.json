@@ -1,0 +1,29 @@
+{
+  "name": "gifchat",
+  "version": "1.0.0",
+  "description": "Chat but it's in gifs only",
+  "main": "gitchat.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node gitchat.js",
+    "dev": "nodemon gitchat.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thedamian/gifchat.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/thedamian/gifchat/issues"
+  },
+  "homepage": "https://github.com/thedamian/gifchat#readme",
+  "dependencies": {
+    "ejs": "^3.1.5",
+    "express": "^4.17.1",
+    "helmet": "^4.3.1",
+    "morgan": "^1.10.0",
+    "node-fetch": "^2.6.1",
+    "socket.io": "^3.0.4"
+  }
+}
